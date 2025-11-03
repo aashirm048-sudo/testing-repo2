@@ -1,0 +1,102 @@
+/* ----- Page Base ----- */
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* ----- Main Box ----- */
+.container {
+  background-color: white;
+  border: 2px solid #ddd;
+  border-radius: 30px;
+  width: 950px;
+  padding: 40px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* ----- Logo and Heading ----- */
+#glogo img {
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+}
+
+h1 {
+  display: inline-block;
+  margin-left: 10px;
+  position: relative;
+  top: 8px; /* thoda niche */
+  font-size: 22px;
+  color: #202124;
+  font-weight: 600;
+}
+
+/* ----- Sub Text ----- */
+p {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-size: 15px;
+  color: #3c4043;
+}
+
+/* ----- Inputs ----- */
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 18px;
+  border: 1px solid #dadce0;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #1a73e8;
+  box-shadow: 0 0 2px #1a73e8;
+}
+
+/* ----- Button ----- */
+button {
+  background-color: #1a73e8;
+  color: white;
+  padding: 10px 28px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  float: right;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0f5bd7;
+}
+
+/* ----- Responsive for Small Screens ----- */
+@media (max-width: 500px) {
+  .container {
+    width: 90%;
+    padding: 25px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  input {
+    font-size: 14px;
+  }
+}
+.box {
+  border: 2px solid #000;         /* main thin border (optional) */
+  outline: 6px solid #000;        /* extra stroke jo box-size ko affect nahi karta */
+  outline-offset: 0;              /* -2px karke inside la sakte ho agar chahye */
+  border-radius: 12px;
+  padding: 16px;
+}
+
