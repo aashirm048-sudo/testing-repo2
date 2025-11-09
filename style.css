@@ -54,7 +54,7 @@
     align-items: flex-start;
     gap: 20px;
     padding: 60px;
-    background: url('photo-1506744038136-46273834b3fb.png') no-repeat center center/cover;
+    background: url('photo-1506744038136-46273834b3fb.bg.jpg') no-repeat center center/cover;
     min-height: 90vh;
 }
 
@@ -93,7 +93,7 @@
     text-decoration: underline;
 }
 body {
-    background-image: url('photo-1506744038136-46273834b3fb.png ');
+    background-image: url('photo-1506744038136-46273834b3fb.bg.jpg ');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
