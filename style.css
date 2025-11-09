@@ -92,3 +92,10 @@
 .card a:hover {
     text-decoration: underline;
 }
+body {
+    background-image: url('photo-1506744038136-46273834b3fb.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
